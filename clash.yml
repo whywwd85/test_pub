@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2024-03-16 14:06:39
+# 客户端：Clash
+# 创建时间：2024-03-16 14:15:42
 # 使用模版：V2RaySE 默认模版
-# 节点数量：44
+# 节点数量：24
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -86,347 +85,207 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇰🇷 KR 韩国 1","type":"vless","server":"210.90.151.247","port":12341,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 2","type":"vless","server":"18.183.158.211","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇭🇰 HK 香港 3","type":"vless","server":"101.78.244.128","port":12313,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 4","type":"vless","server":"152.70.248.175","port":20010,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 5","type":"vless","server":"168.138.215.188","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 6","type":"vless","server":"175.125.207.253","port":10023,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 7","type":"vless","server":"158.101.149.71","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 8","type":"vless","server":"175.212.237.31","port":12411,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 9","type":"vless","server":"176.119.150.179","port":49437,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇩🇪 DE 德国 10","type":"vless","server":"62.106.70.112","port":30963,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 11","type":"vless","server":"183.96.44.155","port":24084,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 12","type":"vless","server":"14.33.4.254","port":12185,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇺🇸 US 美国 13","type":"vless","server":"47.76.49.246","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇭🇰 HK 香港 14","type":"vless","server":"47.242.202.230","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 15","type":"vless","server":"210.90.151.247","port":21282,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 16","type":"vless","server":"103.201.131.76","port":34237,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇭🇰 HK 香港 17","type":"vless","server":"47.242.202.230","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇸🇬 SG 新加坡 18","type":"vless","server":"8.222.136.196","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇺🇸 US 美国 19","type":"vless","server":"38.47.127.14","port":17183,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 20","type":"vless","server":"132.226.234.240","port":20010,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 21","type":"vless","server":"140.238.13.96","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 22","type":"vless","server":"175.125.2.37","port":30051,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 23","type":"vless","server":"146.56.151.87","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 24","type":"vless","server":"58.234.19.225","port":30051,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 25","type":"vless","server":"18.181.252.44","port":9002,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 26","type":"vless","server":"114.206.210.243","port":30027,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇭🇰 HK 香港 27","type":"vless","server":"154.204.60.218","port":29876,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇭🇰 HK 香港 28","type":"vless","server":"47.240.60.171","port":4434,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 29","type":"vless","server":"3.112.21.102","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 30","type":"vless","server":"59.2.231.161","port":12551,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 31","type":"vless","server":"20.48.86.120","port":30443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 32","type":"vless","server":"220.80.5.74","port":12523,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 33","type":"vless","server":"131.186.62.26","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 34","type":"vless","server":"45.66.128.148","port":50053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 35","type":"vless","server":"220.125.55.47","port":30009,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 36","type":"vless","server":"45.66.131.11","port":54544,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 37","type":"vless","server":"221.161.19.212","port":25647,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 38","type":"vless","server":"218.147.177.196","port":12223,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 39","type":"vless","server":"121.131.91.22","port":33890,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 40","type":"vless","server":"218.147.178.231","port":21267,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 41","type":"vless","server":"131.186.44.38","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 42","type":"vless","server":"131.186.37.49","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇯🇵 JP 日本 43","type":"vless","server":"147.78.242.111","port":31425,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷 KR 韩国 44","type":"vless","server":"175.215.82.175","port":17779,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"香港KT|@ripaojiedian","type":"ss","server":"47.76.185.99","port":443,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":false}}
+  - {"name":"香港KT2|@ripaojiedian","type":"ss","server":"42.2.115.231","port":443,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":false}}
+  - {"name":"香港|@ripaojiedian","type":"vmess","server":"154.198.227.34","port":12696,"cipher":"auto","uuid":"a2f6696a-bf90-43ae-960b-c5bdc1fe947a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港1|@ripaojiedian","type":"vmess","server":"120.232.242.96","port":32996,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港2|@ripaojiedian","type":"vmess","server":"183.236.51.51","port":51702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港3|@ripaojiedian","type":"ss","server":"ddns.olucloud.subapi.cc","port":21001,"password":"6f932057-ffd9-4426-8ca7-f0654babf84f","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港4|@ripaojiedian","type":"ss","server":"hk05.jjjjjj.icu","port":43217,"password":"66f9f4e5-a88d-40b2-a1ae-6b750b71a8bb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"台湾|@ripaojiedian","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"3d840eb7-9400-4caf-a511-e4724a003ec4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/GQ2qE5Us9g","headers":{"host":"tw1bQiWSE4x.fzbqfrse.xyz"}}}
+  - {"name":"台湾2|@ripaojiedian","type":"vmess","server":"118.163.101.44","port":44332,"cipher":"auto","uuid":"5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cfhk.393930.xyz"}}}
+  - {"name":"日本|@ripaojiedian","type":"ss","server":"jp01.jjjjjj.icu","port":30207,"password":"66f9f4e5-a88d-40b2-a1ae-6b750b71a8bb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本2|@ripaojiedian","type":"vmess","server":"data-jp-v1.usabooks.com.cn","port":20301,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-jp-v1.usabooks.com.cn"}}}
+  - {"name":"日本3|@ripaojiedian","type":"ss","server":"ddns.olucloud.subapi.cc","port":50005,"password":"6f932057-ffd9-4426-8ca7-f0654babf84f","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"韩国2|@ripaojiedian","type":"ss","server":"p235.panda004.net","port":10221,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"韩国|@ripaojiedian","type":"ss","server":"p231.panda004.net","port":4375,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"韩国3|@ripaojiedian","type":"ss","server":"kr2.indianonlinejob2.com","port":20014,"password":"78ed60df-036d-4a6f-9443-a53dd2cce7f2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡|@ripaojiedian","type":"ss","server":"ddns.olucloud.subapi.cc","port":20009,"password":"6f932057-ffd9-4426-8ca7-f0654babf84f","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡2|@ripaojiedian","type":"ssr","server":"vip.basicnode.host","port":11807,"password":"Fhbe0z","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_sha1","obfs-param":"b91a022997.microsoft.com","protocol-param":"22997:JeHHT2"}
+  - {"name":"美国2|@ripaojiedian","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2086,"cipher":"auto","uuid":"3d840eb7-9400-4caf-a511-e4724a003ec4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/Z7qdcrAGRw","headers":{"host":"us77SmSk86j.fzbqfrse.xyz"}}}
+  - {"name":"美国3|@ripaojiedian","type":"vmess","server":"139.59.24.215","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国4|@ripaojiedian","type":"vmess","server":"104.21.63.52","port":80,"cipher":"auto","uuid":"60f12435-bb55-4da2-cb7d-4fea34ecfa37","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us65.netfilx.live"}}}
+  - {"name":"狮城特殊|@ripaojiedian","type":"ss","server":"52.196.70.160","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"韩国特殊|@ripaojiedian","type":"ss","server":"52.195.237.89","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"日本特殊|@ripaojiedian","type":"ss","server":"18.136.102.74","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"印度|@ripaojiedian","type":"vmess","server":"139.59.24.215","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷 KR 韩国 1
-      - 🇯🇵 JP 日本 2
-      - 🇭🇰 HK 香港 3
-      - 🇰🇷 KR 韩国 4
-      - 🇯🇵 JP 日本 5
-      - 🇰🇷 KR 韩国 6
-      - 🇯🇵 JP 日本 7
-      - 🇰🇷 KR 韩国 8
-      - 🇯🇵 JP 日本 9
-      - 🇩🇪 DE 德国 10
-      - 🇰🇷 KR 韩国 11
-      - 🇰🇷 KR 韩国 12
-      - 🇺🇸 US 美国 13
-      - 🇭🇰 HK 香港 14
-      - 🇰🇷 KR 韩国 15
-      - 🇯🇵 JP 日本 16
-      - 🇭🇰 HK 香港 17
-      - 🇸🇬 SG 新加坡 18
-      - 🇺🇸 US 美国 19
-      - 🇰🇷 KR 韩国 20
-      - 🇰🇷 KR 韩国 21
-      - 🇰🇷 KR 韩国 22
-      - 🇰🇷 KR 韩国 23
-      - 🇰🇷 KR 韩国 24
-      - 🇯🇵 JP 日本 25
-      - 🇰🇷 KR 韩国 26
-      - 🇭🇰 HK 香港 27
-      - 🇭🇰 HK 香港 28
-      - 🇯🇵 JP 日本 29
-      - 🇰🇷 KR 韩国 30
-      - 🇯🇵 JP 日本 31
-      - 🇰🇷 KR 韩国 32
-      - 🇯🇵 JP 日本 33
-      - 🇯🇵 JP 日本 34
-      - 🇰🇷 KR 韩国 35
-      - 🇯🇵 JP 日本 36
-      - 🇰🇷 KR 韩国 37
-      - 🇰🇷 KR 韩国 38
-      - 🇰🇷 KR 韩国 39
-      - 🇰🇷 KR 韩国 40
-      - 🇯🇵 JP 日本 41
-      - 🇯🇵 JP 日本 42
-      - 🇯🇵 JP 日本 43
-      - 🇰🇷 KR 韩国 44
+      - 香港KT|@ripaojiedian
+      - 香港KT2|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港1|@ripaojiedian
+      - 香港2|@ripaojiedian
+      - 香港3|@ripaojiedian
+      - 香港4|@ripaojiedian
+      - 台湾|@ripaojiedian
+      - 台湾2|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 韩国2|@ripaojiedian
+      - 韩国|@ripaojiedian
+      - 韩国3|@ripaojiedian
+      - 新加坡|@ripaojiedian
+      - 新加坡2|@ripaojiedian
+      - 美国2|@ripaojiedian
+      - 美国3|@ripaojiedian
+      - 美国4|@ripaojiedian
+      - 狮城特殊|@ripaojiedian
+      - 韩国特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - 印度|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 KR 韩国 1
-      - 🇯🇵 JP 日本 2
-      - 🇭🇰 HK 香港 3
-      - 🇰🇷 KR 韩国 4
-      - 🇯🇵 JP 日本 5
-      - 🇰🇷 KR 韩国 6
-      - 🇯🇵 JP 日本 7
-      - 🇰🇷 KR 韩国 8
-      - 🇯🇵 JP 日本 9
-      - 🇩🇪 DE 德国 10
-      - 🇰🇷 KR 韩国 11
-      - 🇰🇷 KR 韩国 12
-      - 🇺🇸 US 美国 13
-      - 🇭🇰 HK 香港 14
-      - 🇰🇷 KR 韩国 15
-      - 🇯🇵 JP 日本 16
-      - 🇭🇰 HK 香港 17
-      - 🇸🇬 SG 新加坡 18
-      - 🇺🇸 US 美国 19
-      - 🇰🇷 KR 韩国 20
-      - 🇰🇷 KR 韩国 21
-      - 🇰🇷 KR 韩国 22
-      - 🇰🇷 KR 韩国 23
-      - 🇰🇷 KR 韩国 24
-      - 🇯🇵 JP 日本 25
-      - 🇰🇷 KR 韩国 26
-      - 🇭🇰 HK 香港 27
-      - 🇭🇰 HK 香港 28
-      - 🇯🇵 JP 日本 29
-      - 🇰🇷 KR 韩国 30
-      - 🇯🇵 JP 日本 31
-      - 🇰🇷 KR 韩国 32
-      - 🇯🇵 JP 日本 33
-      - 🇯🇵 JP 日本 34
-      - 🇰🇷 KR 韩国 35
-      - 🇯🇵 JP 日本 36
-      - 🇰🇷 KR 韩国 37
-      - 🇰🇷 KR 韩国 38
-      - 🇰🇷 KR 韩国 39
-      - 🇰🇷 KR 韩国 40
-      - 🇯🇵 JP 日本 41
-      - 🇯🇵 JP 日本 42
-      - 🇯🇵 JP 日本 43
-      - 🇰🇷 KR 韩国 44
+      - 香港KT|@ripaojiedian
+      - 香港KT2|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港1|@ripaojiedian
+      - 香港2|@ripaojiedian
+      - 香港3|@ripaojiedian
+      - 香港4|@ripaojiedian
+      - 台湾|@ripaojiedian
+      - 台湾2|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 韩国2|@ripaojiedian
+      - 韩国|@ripaojiedian
+      - 韩国3|@ripaojiedian
+      - 新加坡|@ripaojiedian
+      - 新加坡2|@ripaojiedian
+      - 美国2|@ripaojiedian
+      - 美国3|@ripaojiedian
+      - 美国4|@ripaojiedian
+      - 狮城特殊|@ripaojiedian
+      - 韩国特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - 印度|@ripaojiedian
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 KR 韩国 1
-      - 🇯🇵 JP 日本 2
-      - 🇭🇰 HK 香港 3
-      - 🇰🇷 KR 韩国 4
-      - 🇯🇵 JP 日本 5
-      - 🇰🇷 KR 韩国 6
-      - 🇯🇵 JP 日本 7
-      - 🇰🇷 KR 韩国 8
-      - 🇯🇵 JP 日本 9
-      - 🇩🇪 DE 德国 10
-      - 🇰🇷 KR 韩国 11
-      - 🇰🇷 KR 韩国 12
-      - 🇺🇸 US 美国 13
-      - 🇭🇰 HK 香港 14
-      - 🇰🇷 KR 韩国 15
-      - 🇯🇵 JP 日本 16
-      - 🇭🇰 HK 香港 17
-      - 🇸🇬 SG 新加坡 18
-      - 🇺🇸 US 美国 19
-      - 🇰🇷 KR 韩国 20
-      - 🇰🇷 KR 韩国 21
-      - 🇰🇷 KR 韩国 22
-      - 🇰🇷 KR 韩国 23
-      - 🇰🇷 KR 韩国 24
-      - 🇯🇵 JP 日本 25
-      - 🇰🇷 KR 韩国 26
-      - 🇭🇰 HK 香港 27
-      - 🇭🇰 HK 香港 28
-      - 🇯🇵 JP 日本 29
-      - 🇰🇷 KR 韩国 30
-      - 🇯🇵 JP 日本 31
-      - 🇰🇷 KR 韩国 32
-      - 🇯🇵 JP 日本 33
-      - 🇯🇵 JP 日本 34
-      - 🇰🇷 KR 韩国 35
-      - 🇯🇵 JP 日本 36
-      - 🇰🇷 KR 韩国 37
-      - 🇰🇷 KR 韩国 38
-      - 🇰🇷 KR 韩国 39
-      - 🇰🇷 KR 韩国 40
-      - 🇯🇵 JP 日本 41
-      - 🇯🇵 JP 日本 42
-      - 🇯🇵 JP 日本 43
-      - 🇰🇷 KR 韩国 44
+      - 香港KT|@ripaojiedian
+      - 香港KT2|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港1|@ripaojiedian
+      - 香港2|@ripaojiedian
+      - 香港3|@ripaojiedian
+      - 香港4|@ripaojiedian
+      - 台湾|@ripaojiedian
+      - 台湾2|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 韩国2|@ripaojiedian
+      - 韩国|@ripaojiedian
+      - 韩国3|@ripaojiedian
+      - 新加坡|@ripaojiedian
+      - 新加坡2|@ripaojiedian
+      - 美国2|@ripaojiedian
+      - 美国3|@ripaojiedian
+      - 美国4|@ripaojiedian
+      - 狮城特殊|@ripaojiedian
+      - 韩国特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - 印度|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 KR 韩国 1
-      - 🇯🇵 JP 日本 2
-      - 🇭🇰 HK 香港 3
-      - 🇰🇷 KR 韩国 4
-      - 🇯🇵 JP 日本 5
-      - 🇰🇷 KR 韩国 6
-      - 🇯🇵 JP 日本 7
-      - 🇰🇷 KR 韩国 8
-      - 🇯🇵 JP 日本 9
-      - 🇩🇪 DE 德国 10
-      - 🇰🇷 KR 韩国 11
-      - 🇰🇷 KR 韩国 12
-      - 🇺🇸 US 美国 13
-      - 🇭🇰 HK 香港 14
-      - 🇰🇷 KR 韩国 15
-      - 🇯🇵 JP 日本 16
-      - 🇭🇰 HK 香港 17
-      - 🇸🇬 SG 新加坡 18
-      - 🇺🇸 US 美国 19
-      - 🇰🇷 KR 韩国 20
-      - 🇰🇷 KR 韩国 21
-      - 🇰🇷 KR 韩国 22
-      - 🇰🇷 KR 韩国 23
-      - 🇰🇷 KR 韩国 24
-      - 🇯🇵 JP 日本 25
-      - 🇰🇷 KR 韩国 26
-      - 🇭🇰 HK 香港 27
-      - 🇭🇰 HK 香港 28
-      - 🇯🇵 JP 日本 29
-      - 🇰🇷 KR 韩国 30
-      - 🇯🇵 JP 日本 31
-      - 🇰🇷 KR 韩国 32
-      - 🇯🇵 JP 日本 33
-      - 🇯🇵 JP 日本 34
-      - 🇰🇷 KR 韩国 35
-      - 🇯🇵 JP 日本 36
-      - 🇰🇷 KR 韩国 37
-      - 🇰🇷 KR 韩国 38
-      - 🇰🇷 KR 韩国 39
-      - 🇰🇷 KR 韩国 40
-      - 🇯🇵 JP 日本 41
-      - 🇯🇵 JP 日本 42
-      - 🇯🇵 JP 日本 43
-      - 🇰🇷 KR 韩国 44
+      - 香港KT|@ripaojiedian
+      - 香港KT2|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港1|@ripaojiedian
+      - 香港2|@ripaojiedian
+      - 香港3|@ripaojiedian
+      - 香港4|@ripaojiedian
+      - 台湾|@ripaojiedian
+      - 台湾2|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 韩国2|@ripaojiedian
+      - 韩国|@ripaojiedian
+      - 韩国3|@ripaojiedian
+      - 新加坡|@ripaojiedian
+      - 新加坡2|@ripaojiedian
+      - 美国2|@ripaojiedian
+      - 美国3|@ripaojiedian
+      - 美国4|@ripaojiedian
+      - 狮城特殊|@ripaojiedian
+      - 韩国特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - 印度|@ripaojiedian
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷 KR 韩国 1
-      - 🇯🇵 JP 日本 2
-      - 🇭🇰 HK 香港 3
-      - 🇰🇷 KR 韩国 4
-      - 🇯🇵 JP 日本 5
-      - 🇰🇷 KR 韩国 6
-      - 🇯🇵 JP 日本 7
-      - 🇰🇷 KR 韩国 8
-      - 🇯🇵 JP 日本 9
-      - 🇩🇪 DE 德国 10
-      - 🇰🇷 KR 韩国 11
-      - 🇰🇷 KR 韩国 12
-      - 🇺🇸 US 美国 13
-      - 🇭🇰 HK 香港 14
-      - 🇰🇷 KR 韩国 15
-      - 🇯🇵 JP 日本 16
-      - 🇭🇰 HK 香港 17
-      - 🇸🇬 SG 新加坡 18
-      - 🇺🇸 US 美国 19
-      - 🇰🇷 KR 韩国 20
-      - 🇰🇷 KR 韩国 21
-      - 🇰🇷 KR 韩国 22
-      - 🇰🇷 KR 韩国 23
-      - 🇰🇷 KR 韩国 24
-      - 🇯🇵 JP 日本 25
-      - 🇰🇷 KR 韩国 26
-      - 🇭🇰 HK 香港 27
-      - 🇭🇰 HK 香港 28
-      - 🇯🇵 JP 日本 29
-      - 🇰🇷 KR 韩国 30
-      - 🇯🇵 JP 日本 31
-      - 🇰🇷 KR 韩国 32
-      - 🇯🇵 JP 日本 33
-      - 🇯🇵 JP 日本 34
-      - 🇰🇷 KR 韩国 35
-      - 🇯🇵 JP 日本 36
-      - 🇰🇷 KR 韩国 37
-      - 🇰🇷 KR 韩国 38
-      - 🇰🇷 KR 韩国 39
-      - 🇰🇷 KR 韩国 40
-      - 🇯🇵 JP 日本 41
-      - 🇯🇵 JP 日本 42
-      - 🇯🇵 JP 日本 43
-      - 🇰🇷 KR 韩国 44
+      - 香港KT|@ripaojiedian
+      - 香港KT2|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港1|@ripaojiedian
+      - 香港2|@ripaojiedian
+      - 香港3|@ripaojiedian
+      - 香港4|@ripaojiedian
+      - 台湾|@ripaojiedian
+      - 台湾2|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 韩国2|@ripaojiedian
+      - 韩国|@ripaojiedian
+      - 韩国3|@ripaojiedian
+      - 新加坡|@ripaojiedian
+      - 新加坡2|@ripaojiedian
+      - 美国2|@ripaojiedian
+      - 美国3|@ripaojiedian
+      - 美国4|@ripaojiedian
+      - 狮城特殊|@ripaojiedian
+      - 韩国特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - 印度|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 KR 韩国 1
-      - 🇯🇵 JP 日本 2
-      - 🇭🇰 HK 香港 3
-      - 🇰🇷 KR 韩国 4
-      - 🇯🇵 JP 日本 5
-      - 🇰🇷 KR 韩国 6
-      - 🇯🇵 JP 日本 7
-      - 🇰🇷 KR 韩国 8
-      - 🇯🇵 JP 日本 9
-      - 🇩🇪 DE 德国 10
-      - 🇰🇷 KR 韩国 11
-      - 🇰🇷 KR 韩国 12
-      - 🇺🇸 US 美国 13
-      - 🇭🇰 HK 香港 14
-      - 🇰🇷 KR 韩国 15
-      - 🇯🇵 JP 日本 16
-      - 🇭🇰 HK 香港 17
-      - 🇸🇬 SG 新加坡 18
-      - 🇺🇸 US 美国 19
-      - 🇰🇷 KR 韩国 20
-      - 🇰🇷 KR 韩国 21
-      - 🇰🇷 KR 韩国 22
-      - 🇰🇷 KR 韩国 23
-      - 🇰🇷 KR 韩国 24
-      - 🇯🇵 JP 日本 25
-      - 🇰🇷 KR 韩国 26
-      - 🇭🇰 HK 香港 27
-      - 🇭🇰 HK 香港 28
-      - 🇯🇵 JP 日本 29
-      - 🇰🇷 KR 韩国 30
-      - 🇯🇵 JP 日本 31
-      - 🇰🇷 KR 韩国 32
-      - 🇯🇵 JP 日本 33
-      - 🇯🇵 JP 日本 34
-      - 🇰🇷 KR 韩国 35
-      - 🇯🇵 JP 日本 36
-      - 🇰🇷 KR 韩国 37
-      - 🇰🇷 KR 韩国 38
-      - 🇰🇷 KR 韩国 39
-      - 🇰🇷 KR 韩国 40
-      - 🇯🇵 JP 日本 41
-      - 🇯🇵 JP 日本 42
-      - 🇯🇵 JP 日本 43
-      - 🇰🇷 KR 韩国 44
+      - 香港KT|@ripaojiedian
+      - 香港KT2|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港1|@ripaojiedian
+      - 香港2|@ripaojiedian
+      - 香港3|@ripaojiedian
+      - 香港4|@ripaojiedian
+      - 台湾|@ripaojiedian
+      - 台湾2|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 韩国2|@ripaojiedian
+      - 韩国|@ripaojiedian
+      - 韩国3|@ripaojiedian
+      - 新加坡|@ripaojiedian
+      - 新加坡2|@ripaojiedian
+      - 美国2|@ripaojiedian
+      - 美国3|@ripaojiedian
+      - 美国4|@ripaojiedian
+      - 狮城特殊|@ripaojiedian
+      - 韩国特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - 印度|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -449,50 +308,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 KR 韩国 1
-      - 🇯🇵 JP 日本 2
-      - 🇭🇰 HK 香港 3
-      - 🇰🇷 KR 韩国 4
-      - 🇯🇵 JP 日本 5
-      - 🇰🇷 KR 韩国 6
-      - 🇯🇵 JP 日本 7
-      - 🇰🇷 KR 韩国 8
-      - 🇯🇵 JP 日本 9
-      - 🇩🇪 DE 德国 10
-      - 🇰🇷 KR 韩国 11
-      - 🇰🇷 KR 韩国 12
-      - 🇺🇸 US 美国 13
-      - 🇭🇰 HK 香港 14
-      - 🇰🇷 KR 韩国 15
-      - 🇯🇵 JP 日本 16
-      - 🇭🇰 HK 香港 17
-      - 🇸🇬 SG 新加坡 18
-      - 🇺🇸 US 美国 19
-      - 🇰🇷 KR 韩国 20
-      - 🇰🇷 KR 韩国 21
-      - 🇰🇷 KR 韩国 22
-      - 🇰🇷 KR 韩国 23
-      - 🇰🇷 KR 韩国 24
-      - 🇯🇵 JP 日本 25
-      - 🇰🇷 KR 韩国 26
-      - 🇭🇰 HK 香港 27
-      - 🇭🇰 HK 香港 28
-      - 🇯🇵 JP 日本 29
-      - 🇰🇷 KR 韩国 30
-      - 🇯🇵 JP 日本 31
-      - 🇰🇷 KR 韩国 32
-      - 🇯🇵 JP 日本 33
-      - 🇯🇵 JP 日本 34
-      - 🇰🇷 KR 韩国 35
-      - 🇯🇵 JP 日本 36
-      - 🇰🇷 KR 韩国 37
-      - 🇰🇷 KR 韩国 38
-      - 🇰🇷 KR 韩国 39
-      - 🇰🇷 KR 韩国 40
-      - 🇯🇵 JP 日本 41
-      - 🇯🇵 JP 日本 42
-      - 🇯🇵 JP 日本 43
-      - 🇰🇷 KR 韩国 44
+      - 香港KT|@ripaojiedian
+      - 香港KT2|@ripaojiedian
+      - 香港|@ripaojiedian
+      - 香港1|@ripaojiedian
+      - 香港2|@ripaojiedian
+      - 香港3|@ripaojiedian
+      - 香港4|@ripaojiedian
+      - 台湾|@ripaojiedian
+      - 台湾2|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 韩国2|@ripaojiedian
+      - 韩国|@ripaojiedian
+      - 韩国3|@ripaojiedian
+      - 新加坡|@ripaojiedian
+      - 新加坡2|@ripaojiedian
+      - 美国2|@ripaojiedian
+      - 美国3|@ripaojiedian
+      - 美国4|@ripaojiedian
+      - 狮城特殊|@ripaojiedian
+      - 韩国特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - 印度|@ripaojiedian
 
 rules:
 # 本地/局域网地址
