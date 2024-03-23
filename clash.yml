@@ -1,65 +1,65 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-03-18 16:42:41
+# 创建时间：2024-03-23 16:07:25
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：12
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
-mixed-port: 7890
-allow-lan: true
-log-level: info
-external-controller: 0.0.0.0:9090
-dns:
-  enabled: true
-  listen: 0.0.0.0:1053
-  ipv6: true
-  default-nameserver:
+ 混合港口                 : 7890
+流线型               : 真实的
+后勤级             : 信息
+外部控制器           : 0.0.0.0 : 9090
+丹麦网址         :
+  使能的        : 真实的
+  倾听       : 0.0.0.0 : 1053
+  IPv6      : 真实的
+  违约者     :
     - 223.5.5.5
     - 114.114.114.114
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
+  增强模式    : 假的
+  仿冒的   : 198.18.0.1/16
+  传真机  :
     - '*.lan'
     - '*.linksys.com'
     - '*.linksyssmartwifi.com'
-    - swscan.apple.com
-    - mesu.apple.com
+    - 网上网站
+    - 网站
     - '*.msftconnecttest.com'
     - '*.msftncsi.com'
-    - time.*.com
-    - time.*.gov
-    - time.*.edu.cn
-    - time.*.apple.com
-    - time1.*.com
-    - time2.*.com
-    - time3.*.com
-    - time4.*.com
-    - time5.*.com
-    - time6.*.com
-    - time7.*.com
-    - ntp.*.com
-    - ntp.*.com
-    - ntp1.*.com
-    - ntp2.*.com
-    - ntp3.*.com
-    - ntp4.*.com
-    - ntp5.*.com
-    - ntp6.*.com
-    - ntp7.*.com
+    - 时间。*。通信系统
+    - 时间。*。政府军
+    - 时间。*。教育中心
+    - 时间。*。苹果网站
+    - 时间1。*。通信系统
+    - 时间2。*。通信系统
+    - 时间3。*。通信系统
+    - 时间4。*。通信系统
+    - 时间5。*。通信系统
+    - 时间6。*。通信系统
+    - 时间7。*。通信系统
+    - 新技术伙伴关系*。通信系统
+    - 新技术伙伴关系*。通信系统
+    - Ntp1。*。通信系统
+    - Ntp2。*。通信系统
+    - Ntp3。*。通信系统
+    - 国家临时政策4。*。通信系统
+    - Ntp5。*。通信系统
+    - Ntp6。*。通信系统
+    - Ntp7。*。通信系统
     - '*.time.edu.cn'
     - '*.ntp.org.cn'
     - +.pool.ntp.org
     - time1.cloud.tencent.com
     - +.music.163.com
     - '*.126.net'
-    - musicapi.taihe.com
-    - music.taihe.com
-    - songsearch.kugou.com
-    - trackercdn.kugou.com
+    - 音乐剧。
+    - 音乐网站
+    - 歌曲搜寻网站
+    - 网上网站
     - '*.kuwo.cn'
     - api-jooxtt.sanook.com
-    - api.joox.com
+    - 艾滋病信息网
     - joox.com
     - +.y.qq.com
     - +.music.tc.qq.com
@@ -86,109 +86,123 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇱🇺_LU_卢森堡_1","type":"vmess","server":"45.82.31.164","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"russia.com","port":2095,"cipher":"auto","uuid":"6658a3a6-225a-4d33-a5d2-82cfde565b4e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.ssrsub.com"}}}
-  - {"name":"🇨🇦_CA_加拿大","type":"vmess","server":"134.122.41.160","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
-  - {"name":"🇨🇦_CA_加拿大->🇺🇸_US_美国","type":"trojan","server":"23.227.38.11","port":443,"udp":true,"password":"b17fa17d-13a0-4e8a-a398-8e549ea8b208","sni":"syndication-statutes-wanted-logo.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-tr"}}
-  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_1","type":"vmess","server":"104.21.224.65","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt1.ir"}}}
-  - {"name":"🇱🇺_LU_卢森堡_2","type":"vmess","server":"78.111.102.232","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国","type":"vmess","server":"172.67.130.140","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"104.21.82.39","port":2052,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mahilu.site"}}}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国","type":"vmess","server":"mizban.arzonhost.ir","port":2086,"cipher":"auto","uuid":"e690ff9e-1676-4be3-d136-dcae586cb1e7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mizban.arzonhost.ir"}}}
+  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_1","type":"vmess","server":"172.67.130.140","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
+  - {"name":"🇮🇷_IR_伊朗","type":"vmess","server":"88.135.44.61","port":26895,"cipher":"auto","uuid":"2b40a751-d6c1-4658-afac-b892c3f0296c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_1","type":"vmess","server":"172.64.160.210","port":80,"cipher":"auto","uuid":"1cfaad16-d2ba-4c49-af07-d7b9f11f43d0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/xn--mes53ddysu0o3gl","headers":{"host":"de321.xn--mes53ddysu0o3gl.top"}}}
+  - {"name":"🇧🇷_BR_巴西","type":"ss","server":"144.22.135.27","port":7702,"password":"ad02f67a-a86d-439e-bbb6-5f12ca38b307","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_2","type":"vmess","server":"admin.arzonhost.ir","port":2086,"cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
   - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_2","type":"vless","server":"172.67.204.84","port":2053,"uuid":"4045c6b7-1d53-4574-98cd-df21db40b0dc","tls":true,"servername":"itcenteriran.blog","network":"ws","ws-opts":{"path":"/p=19"}}
-  - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦","type":"trojan","server":"172.67.132.6","port":2096,"udp":true,"password":"4db45bb4-dcca-4d37-a639-cb55213ee406","sni":"channel.v2bamdad.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"lK1wclmJRbMxj4FxIzvwxUDoX"}}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"104.21.8.157","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大->🇺🇸_US_美国","type":"trojan","server":"23.227.38.11","port":443,"udp":true,"password":"b17fa17d-13a0-4e8a-a398-8e549ea8b208","sni":"syndication-statutes-wanted-logo.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-tr"}}
+  - {"name":"🇱🇺_LU_卢森堡","type":"vmess","server":"78.111.102.232","port":3389,"cipher":"auto","uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
+  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"172.67.116.48","port":80,"cipher":"auto","uuid":"22a13aa2-4854-44cb-e090-ec71ab84b1ff","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"wap.hostmjj.com"}}}
+  - {"name":"🇦🇪_AE_阿联酋->🇬🇧_GB_英国","type":"vmess","server":"94.140.0.110","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"food.zhaal.ir"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇱🇺_LU_卢森堡_1
-      - 🇺🇸_US_美国_1
-      - 🇨🇦_CA_加拿大
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇮🇷_IR_伊朗
       - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-      - 🇱🇺_LU_卢森堡_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
+      - 🇧🇷_BR_巴西
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
       - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇱🇺_LU_卢森堡
+      - 🇺🇸_US_美国_2
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇱🇺_LU_卢森堡_1
-      - 🇺🇸_US_美国_1
-      - 🇨🇦_CA_加拿大
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇮🇷_IR_伊朗
       - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-      - 🇱🇺_LU_卢森堡_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
+      - 🇧🇷_BR_巴西
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
       - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇱🇺_LU_卢森堡
+      - 🇺🇸_US_美国_2
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇱🇺_LU_卢森堡_1
-      - 🇺🇸_US_美国_1
-      - 🇨🇦_CA_加拿大
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇮🇷_IR_伊朗
       - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-      - 🇱🇺_LU_卢森堡_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
+      - 🇧🇷_BR_巴西
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
       - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇱🇺_LU_卢森堡
+      - 🇺🇸_US_美国_2
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇱🇺_LU_卢森堡_1
-      - 🇺🇸_US_美国_1
-      - 🇨🇦_CA_加拿大
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇮🇷_IR_伊朗
       - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-      - 🇱🇺_LU_卢森堡_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
+      - 🇧🇷_BR_巴西
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
       - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇱🇺_LU_卢森堡
+      - 🇺🇸_US_美国_2
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇱🇺_LU_卢森堡_1
-      - 🇺🇸_US_美国_1
-      - 🇨🇦_CA_加拿大
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇮🇷_IR_伊朗
       - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-      - 🇱🇺_LU_卢森堡_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
+      - 🇧🇷_BR_巴西
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
       - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇱🇺_LU_卢森堡
+      - 🇺🇸_US_美国_2
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇱🇺_LU_卢森堡_1
-      - 🇺🇸_US_美国_1
-      - 🇨🇦_CA_加拿大
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇮🇷_IR_伊朗
       - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-      - 🇱🇺_LU_卢森堡_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
+      - 🇧🇷_BR_巴西
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
       - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇱🇺_LU_卢森堡
+      - 🇺🇸_US_美国_2
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -211,16 +225,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇱🇺_LU_卢森堡_1
-      - 🇺🇸_US_美国_1
-      - 🇨🇦_CA_加拿大
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇮🇷_IR_伊朗
       - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-      - 🇱🇺_LU_卢森堡_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
+      - 🇧🇷_BR_巴西
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
       - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇱🇺_LU_卢森堡
+      - 🇺🇸_US_美国_2
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
 
 rules:
 # 本地/局域网地址
@@ -3788,66 +3804,66 @@ rules:
   - IP-CIDR,197.199.0.0/18,🎯 全球直连,no-resolve
   - IP-CIDR,197.210.163.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,197.252.1.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.2.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.4.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.8.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,200.32.52.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,200.32.54.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,200.32.57.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.0.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.4.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.8.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.11.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.13.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.20.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.22.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.24.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.26.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.29.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.33.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.38.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.40.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.43.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.48.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.50.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,42.186.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,45.127.128.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,45.195.24.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,45.253.132.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,45.253.240.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,45.254.48.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,59.111.0.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,59.111.128.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,103.71.120.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,103.71.128.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.71.196.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.71.200.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.72.12.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.72.18.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,103.72.24.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.72.28.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,103.72.38.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,103.72.40.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,103.72.44.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.72.48.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,103.72.128.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,103.74.24.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,103.74.48.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.126.92.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.129.252.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.131.252.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.135.240.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.196.64.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,106.2.32.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,106.2.64.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,114.113.196.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,114.113.200.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,115.236.112.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,115.238.76.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,123.58.160.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,223.252.192.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
-  - GEOIP,CN,🎯 全球直连
-  - MATCH,🐟 漏网之鱼
+  - ip-cidr,197.252.2.0/23,全球联直航,无决心
+  - ip-cidr,1979年。252.4.0/22,全球联直航,无分辨率
+  - ip-cidr,197.252.8.0/21,现代全球联直航,无分辨率
+  - -CIDR,200.32.52.0/24----------------------------------------------------------
+  - -CIDR,200.32.54.0/24,现代全球联
+  - ip-cidr,2000年32.57.0/24,现代全球通,无分辨率
+  - ip-cidr,203.135.0.0/22,现代全航直航,无分辨率
+  - IP-CIDR,203.135.4.0/23,现代全航直航,无分辨率
+  - IP-CIDR,203.135.8.0/23,现代全球通直角,无分辨率
+  - IP-CIDR,203.135.11.0/24,现代全球通直角,无分辨率
+  - IP-CIDR,203.135.13.0/24,现代全球联直航,无分辨率
+  - IP-CIDR,203.135.20.0/24,现代全球通直角,无分辨率
+  - IP-CIDR,203.135.22.0/23,现代全球通直角,无分辨率
+  -  - IP-CIDR,203.135.24.0/23,现代全球联直航,无分辨率
+  -  - IP-CIDR,203.135.26.0/24,现代全球通直角,无分辨率
+  -  - IP-CIDR,203.135.29.0/24,现代全球通直角,无分辨率
+  -  - IP-CIDR,203.135.33.0/24,现代全球通直式,无分辨率
+  -  - IP-CIDR,203.135.38.0/23,现代全球通直角,无分辨率
+  -  - IP-CIDR,203.135.40.0/24,现代全球联直航,无分辨率
+  -  - IP-CIDR,203.135.43.0/24,现代全队直航,无分辨率
+  -  - IP-CIDR,203.135.48.0/24,现代全球通直角,无分辨率
+  -  - IP-CIDR,203.135.50.0/24,现代全球通直式,无分辨率
+  -  - -CIDR,42.186.0.0/16,侦察机
+  -  - 全球通直航,无决心
+  - IP-CIDR,45.195.24.0/24,现代全球通直式,无分辨率
+  - ip-cidr,45,253.132.0/22,现代全航直航,无分辨率
+  - -CIDR,45.253.240.0/22,现代全球联直航,无分辨率
+  - 全型直式连杆机,45.254.48.0/23
+  - -----------------------------------------------------------------------
+  - ------------------------------------------------------------------------
+  - IP-CIDR,103.71.120.0/21,现代全球通直角,无分辨率
+  - IP-CIDR,103.71.128.0/22,现代全球通直航,无决心
+  - -CIDR,103.71.196.0/22,现代全球联直航,无分辨率
+  - IP-CIDR,103.71.200.0/22,现代全球通直式,无分辨率
+  - IP-CIDR,103.720.12.0/22,现代全球通直角,无分辨率
+  - IP-CIDR,103.720.18.0/23,现代全球通直角,无分辨率
+  - IP-CIDR,103.72.24.0/22,现代全球通直角,无分辨率
+  -  - IP-CIDR,103.72.28.0/23,现代全球通直角,无分辨率
+  -  - IP-CIDR,103.72.38.0/23,现代全球通直角,无分辨率
+  -  - IP-CIDR,103.72.40.0/23,现代全球联直航,无分辨率
+  -  - IP-CIDR,103.72.44.0/22,现代全球联直航,无分辨率
+  -  - IP-CIDR,103.72.48.0/21,现代全球通直角,无分辨率
+  -  - IP-CIDR,103.72.128.0/21,现代全球通直角,无分辨率
+  -  - IP-CIDR,103.74.24.0/21,现代全球通直角,无分辨率
+  -  - IP-CIDR,103.74.48.0/22,现代全球通直角,无分辨率
+  -  - IP-CIDR,103.126.92.0/22,现代全球联直航,无分辨率
+  -  - ip-cidr,103.129.252.0/22,现代全球联,无决心
+  -- ------------------------------------------------------------------------
+  -   - IP-CIDR,103.135.240.0/22,现代全球联直航,无分辨率
+  -   - IP-CIDR,103.196.64.0/22,现代全球联直航,无分辨率
+  -   - -CIDR,106.2.32.0/19,全球联直航,无分辨率
+  -   - -CIDR,106.2.64.0/18,全球联直航,无分辨率
+  -   - -------------------------------------------------------------------------
+  -   - --------------------------------------------------------------------------
+  -   - IP-CIDR,115.236.112.0/20,现代全球通直角,无分辨率
+  -   - ------------------------------------------------------------------------
+  -   - ip-cidr,123.58.160.0/19,维多利亚全航直航,无分辨率
+  -   - IP-CIDR,223.252.192.0/19,现代全队直航,无分辨率
+  -   - 128.0/18,现代全球联直航,无决心
+  -   - IP-CIDR,101.198.192.0/19,现代全球联直航,无分辨率
+  -   - -CIDR,101.199.196.0/22,现代全球联直航,无分辨力
+  -- 全球通数码车连
+  - 匹配,
